@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: orange;
+}
+
+main{
+	width: 70%;
+	padding: 50px;
+	margin: auto;
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	box-shadow: 0 0 10px 1px slategray;
+}
+
+.photo{
+	width: calc(50% - 40px);
+	height: calc((35vw - 40px) / 16 * 9);
+	margin: 10px;
+	background-color: greenyellow;
+	border: 3px solid deepskyblue;
+	background-position: center;
+	background-size: cover;
+	border-radius: 25px;
+	transition: all 0.8s ease;
+}
+
+.photo:hover{
+	transform: rotate(10deg) scale(1.06);
+}
+
+h1{
+	width: 100%;
+	text-align: center;
+	font-size: 48px;
+}
+
+.photo1{
+	background-image: url(../img/1.jpg);
+}
+
+.photo2{
+	background-image: url(../img/2.jpg);
+}
+
+.photo3{
+	background-image: url(../img/3.jpg);
+}
+
+.photo4{
+	background-image: url(../img/4.jpg);
+}
